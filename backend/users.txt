@@ -1,0 +1,11 @@
+
+firstname
+"mythili"
+lastname
+"galidevara"
+email
+"mythili@gmail.com"
+password
+"Mythili@123"
+
+
