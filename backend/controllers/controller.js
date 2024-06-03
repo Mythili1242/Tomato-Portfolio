@@ -73,9 +73,6 @@ catch(err){
 }
 }
 
-
-
-
 const updateitems=async (req,res,next)=>{
     console.log("hi")
     
@@ -183,8 +180,6 @@ const postrest=async(req,res,next)=>{
         if(!_.isEmpty(errorDetails)){
            return res.send(errorDetails) 
         }
-
-
 
         await restmodel.create({...req.body}).then(res=>console.log(res)).catch(err=>console.log(err));
         return res.send("Restaurant added")
